@@ -21,3 +21,11 @@ This Bash script automates the process of archiving and clearing system log file
 3. Run the script with:
    ```bash
    sudo ./logProject.sh
+
+## Automating with Cron
+- Open the crontab editor with:
+  ```bash
+  crontab -e
+- To run this script automatically every day at 11:59 PM, add the following cronjob:
+  ```bash
+  59 23 * * * /bin/sh /home/osboxes/logProject/scripts/logProject.sh
