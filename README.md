@@ -18,3 +18,6 @@ This Bash script automates the process of archiving and clearing system log file
 2. Make the script executable:
    ```bash
    chmod +x logProject.sh
+3. Run the script with:
+   ```bash
+   sudo ./logProject.sh
